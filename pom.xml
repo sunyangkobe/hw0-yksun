@@ -6,6 +6,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/sunyangkobe/hw0-yksun.git</connection>
 		<developerConnection>scm:git:git://github.com/sunyangkobe/hw0-yksun.git</developerConnection>
+		<url>https://github.com/sunyangkobe/hw0-yksun.git</url>
 	</scm>
 	<repositories>
 		<repository>
