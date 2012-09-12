@@ -9,6 +9,7 @@ import edu.stanford.nlp.process.Tokenizer;
  * 
  * @author Zi Yang <ziy@cs.cmu.edu>
  */
+
 public class DependencyExample {
   /**
    * Tokenize a sentence in the argument, and print out the tokens to the console.
@@ -16,6 +17,7 @@ public class DependencyExample {
    * @param args
    *          Set the first argument as the sentence to be tokenized.
    */
+
   public static void main(String[] args) {
     TokenizerFactory<Word> factory = PTBTokenizerFactory.newTokenizerFactory();
     Tokenizer<Word> tokenizer = factory.getTokenizer(new StringReader(args[0]));
